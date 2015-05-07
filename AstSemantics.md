@@ -316,6 +316,7 @@ representing `false`.
   * `int32.shr`: signed-less logical shift right
   * `int32.sar`: signed-less arithmetic shift right
   * `int32.eq`: signed-less compare equal
+  * `int32.ne`: signed-less compare unequal
   * `int32.slt`: signed less than
   * `int32.sle`: signed less than or equal
   * `int32.ult`: unsigned less than
@@ -381,6 +382,7 @@ Floating point arithmetic follows the IEEE-754 standard, except that:
   * `float32.trunc`: round to nearest integer towards zero
   * `float32.nearestint`: round to nearest integer, ties to even
   * `float32.eq`: compare equal
+  * `float32.ne`: compare unequal
   * `float32.lt`: less than
   * `float32.le`: less than or equal
   * `float32.sqrt`: square root
@@ -399,6 +401,7 @@ Floating point arithmetic follows the IEEE-754 standard, except that:
   * `float64.trunc`: round to nearest integer towards zero
   * `float64.nearestint`: round to nearest integer, ties to even
   * `float64.eq`: compare equal
+  * `float64.ne`: compare unequal
   * `float64.lt`: less than
   * `float64.le`: less than or equal
   * `float64.sqrt`: square root
